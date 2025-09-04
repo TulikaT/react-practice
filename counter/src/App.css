@@ -9,13 +9,15 @@ body{
   justify-content: center;
   align-items: center;
 }
-div{
+.div{
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
-
+  background-color: rgba(0, 0, 0, 0.527);
+  padding: 3rem;
+  border-radius: 10px;
 }
 input{
   width: 130px;
@@ -26,9 +28,7 @@ input{
   border: none;
   text-align: center;
 }
-input::content{
-  
-}
+
 
 button{
   width: 100px;
@@ -45,4 +45,5 @@ button{
   flex-direction: row;
   justify-content: center;
   align-content: center;
+  gap: 0 1rem;
 }
